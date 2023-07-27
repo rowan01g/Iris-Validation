@@ -30,7 +30,7 @@ def pearson_calc(list1, list2):
     return corr
 
 # Get a list of all the filenames in the folder
-folder_path = "C:/Users/rowan/OneDrive/Desktop/Iris Internship/Data/2ete"  # Replace with the path to your folder
+folder_path = "PATH"  # Replace with the path to your folder
 file_names = os.listdir(folder_path)
 file_names = [os.path.join(folder_path, file) for file in file_names]
 
